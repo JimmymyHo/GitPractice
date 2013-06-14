@@ -25,11 +25,18 @@
                                     <action selector="clickTheButton:" destination="2" eventType="touchUpInside" id="G7v-H1-T7f"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="new branch added" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4KL-PD-oRR">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="4KL-PD-oRR" firstAttribute="trailing" secondItem="OZo-Lf-kYs" secondAttribute="trailing" type="default" id="bv0-fj-lxf"/>
                             <constraint firstItem="OZo-Lf-kYs" firstAttribute="top" secondItem="3" secondAttribute="top" constant="156" id="eAt-Ob-hjd"/>
                             <constraint firstItem="OZo-Lf-kYs" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="lAR-4b-Cj4"/>
+                            <constraint firstItem="4KL-PD-oRR" firstAttribute="top" secondItem="3" secondAttribute="top" constant="273" id="ss1-40-LUr"/>
                         </constraints>
                     </view>
                 </viewController>
