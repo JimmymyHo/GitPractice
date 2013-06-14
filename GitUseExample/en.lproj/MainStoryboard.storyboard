@@ -30,13 +30,20 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="second added" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AYT-xe-X1W">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="AYT-xe-X1W" firstAttribute="centerX" secondItem="OZo-Lf-kYs" secondAttribute="centerX" type="default" id="00c-Hb-cdy"/>
                             <constraint firstItem="4KL-PD-oRR" firstAttribute="trailing" secondItem="OZo-Lf-kYs" secondAttribute="trailing" type="default" id="bv0-fj-lxf"/>
                             <constraint firstItem="OZo-Lf-kYs" firstAttribute="top" secondItem="3" secondAttribute="top" constant="156" id="eAt-Ob-hjd"/>
-                            <constraint firstItem="OZo-Lf-kYs" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="lAR-4b-Cj4"/>
                             <constraint firstItem="4KL-PD-oRR" firstAttribute="top" secondItem="3" secondAttribute="top" constant="273" id="ss1-40-LUr"/>
+                            <constraint firstItem="AYT-xe-X1W" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="vnw-qL-FNe"/>
+                            <constraint firstAttribute="bottom" secondItem="AYT-xe-X1W" secondAttribute="bottom" constant="118" id="zQ7-gE-7KW"/>
                         </constraints>
                     </view>
                 </viewController>
